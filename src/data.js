@@ -5,6 +5,16 @@ export const data = [
   { id: 4, name: 'anna' },
 ];
 
+export const data2 = [
+  { name: "Peter", age: 47, hobby: "surfing"},
+  { name: "Ali", age: 38, hobby: "cooking"},
+  { name: "Michaela", age: 29, hobby: "water polo"}, 
+  { name: "Kayden", age: 19, hobby: "football"}, 
+  { name: "Semret", age: 33, hobby: "studying English"}, 
+  { name: "Doreen", age: 78, hobby: "knitting"},
+  { name: "Yoonhee", age: 31, hobby: "drawing"},   
+]
+
 export const people = [
   { id: 1, name: 'bob', nickName: 'Stud Muffin' },
   { id: 2, name: 'peter' },
