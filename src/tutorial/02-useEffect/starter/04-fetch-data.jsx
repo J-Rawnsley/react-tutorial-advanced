@@ -21,11 +21,11 @@ const Render = () => {
   console.log(users);
 
   const UserList = () => users.map(user => {
-    return <div>
+    return <ul className="users">
       <img src={user.avatar_url} style={{width: "50px"}}></img>
-      <p>{user.login} <a href={user.html_url}>Profile</a></p>
+      <li>{user.login} <a href={user.html_url}>Profile</a></li>
       
-      </div>
+      </ul>
   })
 
   return (
